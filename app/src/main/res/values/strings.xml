@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PracticaTema4</string>
+
+    <string name="btnUno">Botón Nº1</string>
+    <string name="btnDos">Botón Nº2</string>
+    <string name="btnTres">Botón Nº3</string>
+    <string name="btnCuatro">Botón Nº4</string>
+
+    <string name="lblNumero">Introduce un numero para ver si es primo</string>
+    <string name="txtNumero">Escribe el numero</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="lblResultado"></string>
+    <string name="resultadoPt1">El numero</string>
+    <string name="resultadoPrimo">es primo</string>
+    <string name="resultadoNoPrimo">no es primo</string>
+</resources>
