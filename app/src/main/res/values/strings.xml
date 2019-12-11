@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">PracticaTema4</string>
 
+    <string name="nombreNumerosPrimos">Números Primos</string>
+    <string name="nombreJuegoAciertos">Juego de Aciertos</string>
+    <string name="nombreDesplazandoImagenes">Desplazando Imágenes</string>
+    <string name="nombreSeleccionandoImagenes">Seleccionando Imágenes</string>
+
     <string name="btnUno">Botón Nº1</string>
     <string name="btnDos">Botón Nº2</string>
     <string name="btnTres">Botón Nº3</string>
@@ -13,4 +18,6 @@
     <string name="resultadoPt1">El numero</string>
     <string name="resultadoPrimo">es primo</string>
     <string name="resultadoNoPrimo">no es primo</string>
+
+
 </resources>

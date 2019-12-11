@@ -10,6 +10,9 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
 Button btnUno;
+Button btnDos;
+Button btnTres;
+Button btnCuatro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +20,9 @@ Button btnUno;
         setContentView(R.layout.activity_main);
 
         btnUno = (Button)findViewById(R.id.btnUno);
+        btnDos = (Button)findViewById(R.id.btnDos);
+        btnTres = (Button)findViewById(R.id.btnTres);
+        btnCuatro = (Button)findViewById(R.id.btnCuatro);
 
         //Boton uno
         btnUno.setOnClickListener(new Button.OnClickListener(){
@@ -24,6 +30,31 @@ Button btnUno;
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(), NumerosPrimos.class);
                 startActivity(intent);
+            }
+        });
+
+        //botón dos
+        btnDos.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), JuegoAciertos.class);
+                startActivity(intent);
+            }
+        });
+
+        //botón tress
+        btnTres.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        //botón cuatro
+        btnCuatro.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+
             }
         });
 
