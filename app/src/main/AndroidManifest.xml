@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".SeleccionandoImagenes"
+            android:label="@string/nombreSeleccionandoImagenes"/>
+        <activity
             android:name=".DesplazandoImagenes"
-            android:label="@string/nombreDesplazandoImagenes"/>
+            android:label="@string/nombreDesplazandoImagenes" />
         <activity
             android:name=".JuegoAciertos"
             android:label="@string/nombreJuegoAciertos" />

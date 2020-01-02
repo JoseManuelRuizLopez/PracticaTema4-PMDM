@@ -55,7 +55,8 @@ Button btnCuatro;
         btnCuatro.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(v.getContext(), SeleccionandoImagenes.class);
+                startActivity(intent);
             }
         });
 

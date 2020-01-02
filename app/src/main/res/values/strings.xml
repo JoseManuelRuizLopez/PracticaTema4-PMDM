@@ -41,6 +41,11 @@
     <string name="c9">Buenos Aires</string>
     <string name="c10">Ereván</string>
 
+    <string name="btnPetunia">Petunia</string>
+    <string name="btnOrquidea">Orquidea</string>
+    <string name="btnDalia">Dalia</string>
+    <string name="btnLirio">Lirio</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
