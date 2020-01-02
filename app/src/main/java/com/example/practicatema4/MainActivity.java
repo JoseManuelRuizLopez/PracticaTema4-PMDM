@@ -42,11 +42,12 @@ Button btnCuatro;
             }
         });
 
-        //botón tress
+        //botón tres
         btnTres.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(v.getContext(), DesplazandoImagenes.class);
+                startActivity(intent);
             }
         });
 

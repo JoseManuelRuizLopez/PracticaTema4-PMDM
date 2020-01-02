@@ -9,10 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".JuegoAciertos" android:label="@string/nombreJuegoAciertos"></activity>
+        <activity
+            android:name=".DesplazandoImagenes"
+            android:label="@string/nombreDesplazandoImagenes"/>
+        <activity
+            android:name=".JuegoAciertos"
+            android:label="@string/nombreJuegoAciertos" />
         <activity
             android:name=".NumerosPrimos"
-            android:label="@string/nombreNumerosPrimos"></activity>
+            android:label="@string/nombreNumerosPrimos" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
