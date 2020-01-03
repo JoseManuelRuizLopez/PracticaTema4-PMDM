@@ -3,9 +3,15 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/morado</item>
+        <item name="colorPrimaryDark">@color/negro</item>
+        <item name="colorAccent">@color/morado</item>
+    </style>
+
+    <style name="estiloBoton">
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:background">@color/morado</item>
+        <item name="android:fontFamily">@font/mandatoryplaything</item>
     </style>
 
 </resources>

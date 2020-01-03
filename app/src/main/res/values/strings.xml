@@ -40,6 +40,10 @@
     <string name="c8">Argel</string>
     <string name="c9">Buenos Aires</string>
     <string name="c10">Ereván</string>
+    
+    <string name="btnVerificar">Verificar</string>
+    <string name="lblPais">Pais no elegido</string>
+    <string name="lblCapital">Capital no elegida</string>
 
     <string name="btnPetunia">Petunia</string>
     <string name="btnOrquidea">Orquidea</string>

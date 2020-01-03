@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gris"
     tools:context=".SeleccionandoImagenes">
 
     <Button
+        style="@style/estiloBoton"
         android:id="@+id/btnDalia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,6 +21,7 @@
         app:layout_constraintVertical_bias="0.702" />
 
     <Button
+        style="@style/estiloBoton"
         android:id="@+id/btnPetunia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,6 +34,7 @@
         app:layout_constraintVertical_bias="0.855" />
 
     <Button
+        style="@style/estiloBoton"
         android:id="@+id/btnLirio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,6 +47,7 @@
         app:layout_constraintVertical_bias="0.704" />
 
     <Button
+        style="@style/estiloBoton"
         android:id="@+id/btnOrquidea"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

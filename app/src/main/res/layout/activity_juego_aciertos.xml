@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gris"
     tools:context=".JuegoAciertos">
 
     <TextView
         android:id="@+id/lblPais"
-        android:layout_width="76dp"
-        android:layout_height="25dp"
-        android:text="TextView"
+        android:layout_width="73dp"
+        android:layout_height="59dp"
+        android:text="@string/lblPais"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.253"
@@ -20,9 +21,9 @@
 
     <TextView
         android:id="@+id/lblCapital"
-        android:layout_width="76dp"
-        android:layout_height="25dp"
-        android:text="TextView"
+        android:layout_width="73dp"
+        android:layout_height="59dp"
+        android:text="@string/lblCapital"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.743"
@@ -31,11 +32,12 @@
         app:layout_constraintVertical_bias="0.808" />
 
     <Button
+        style="@style/estiloBoton"
         android:id="@+id/btnVerificar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:text="Button"
+        android:text="@string/btnVerificar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
