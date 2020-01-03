@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Argomento di pratica 4</string>
+
+    <string name="nombreNumerosPrimos">Numeri primi</string>
+    <string name="nombreJuegoAciertos">Hit di gioco</string>
+    <string name="nombreDesplazandoImagenes">Immagini mobili</string>
+    <string name="nombreSeleccionandoImagenes">Selezione di immagini</string>
+
+    <string name="btnUno">Pulsante Nº1</string>
+    <string name="btnDos">Pulsante Nº2</string>
+    <string name="btnTres">Pulsante Nº3</string>
+    <string name="btnCuatro">Pulsante Nº4</string>
+
+    <string name="lblNumero">Inserisci un numero per vedere se sei un cugino</string>
+    <string name="txtNumero">Scrivi il numero</string>
+    <string name="btnCalcular">Calcolare</string>
+    <string name="lblResultado"></string>
+    <string name="resultadoPt1">Il numero</string>
+    <string name="resultadoPrimo">e primi</string>
+    <string name="resultadoNoPrimo">e no prime</string>
+
+    <string-array name="listaPaises">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Germania</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Antigua y Barbuda</item>
+        <item>Arabia Saudita</item>
+        <item>Argelia</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+    </string-array>
+
+    <string-array name="listaCapitales">
+        <item>Kabul</item>
+        <item>Tirana</item>
+        <item>Berlín</item>
+        <item>Andorra la Vieja</item>
+        <item>Luanda</item>
+        <item>Saint John</item>
+        <item>Riad</item>
+        <item>Argel</item>
+        <item>Buenos Aires</item>
+        <item>Ereván</item>
+    </string-array>
+
+    <string name="btnVerificar">Verificare</string>
+    <string name="lblPais">Pais no elegido</string>
+    <string name="lblCapital">Paese non scelto</string>
+
+    <string name="btnPetunia">Petunia</string>
+    <string name="btnOrquidea">Orquidea</string>
+    <string name="btnDalia">Dalia</string>
+    <string name="btnLirio">Giglio</string>
+</resources>

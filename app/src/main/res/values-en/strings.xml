@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PracticeTheme4</string>
+
+    <string name="nombreNumerosPrimos">Prime Numbers</string>
+    <string name="nombreJuegoAciertos">Hit Game</string>
+    <string name="nombreDesplazandoImagenes">Shifting images</string>
+    <string name="nombreSeleccionandoImagenes">Selecting Images</string>
+
+    <string name="btnUno">Button Nº1</string>
+    <string name="btnDos">Button Nº2</string>
+    <string name="btnTres">Button Nº3</string>
+    <string name="btnCuatro">Button Nº4</string>
+
+    <string name="lblNumero">Enter a number to see if a prime number</string>
+    <string name="txtNumero">Write a number</string>
+    <string name="btnCalcular">Calculate</string>
+    <string name="lblResultado"></string>
+    <string name="resultadoPt1">The number</string>
+    <string name="resultadoPrimo">is prime</string>
+    <string name="resultadoNoPrimo">is not prime</string>
+
+    <string-array name="listaPaises">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Germany</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Antigua y Barbuda</item>
+        <item>Saudi Arabia</item>
+        <item>Algeria</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+    </string-array>
+
+    <string-array name="listaCapitales">
+        <item>Kabul</item>
+        <item>Tirana</item>
+        <item>Berlín</item>
+        <item>Andorra la Vieja</item>
+        <item>Luanda</item>
+        <item>Saint John</item>
+        <item>Riad</item>
+        <item>Argel</item>
+        <item>Buenos Aires</item>
+        <item>Ereván</item>
+    </string-array>
+
+    <string name="btnVerificar">Check</string>
+    <string name="lblPais">Country not selected</string>
+    <string name="lblCapital">Capital not selected</string>
+
+    <string name="btnPetunia">Petunia</string>
+    <string name="btnOrquidea">Orchid</string>
+    <string name="btnDalia">Dahlia</string>
+    <string name="btnLirio">Lily</string>
+</resources>
