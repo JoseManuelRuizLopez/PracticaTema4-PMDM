@@ -19,28 +19,32 @@
     <string name="resultadoPrimo">es primo</string>
     <string name="resultadoNoPrimo">no es primo</string>
 
-    <string name="p1">Afganistán</string>
-    <string name="p2">Albania</string>
-    <string name="p3">Alemania</string>
-    <string name="p4">Andorra</string>
-    <string name="p5">Angola</string>
-    <string name="p6">Antigua y Barbuda</string>
-    <string name="p7">Arabia Saudita</string>
-    <string name="p8">Argelia</string>
-    <string name="p9">Argentina</string>
-    <string name="p10">Armenia</string>
+    <string-array name="listaPaises">
+        <item>Afganistán</item>
+        <item>Albania</item>
+        <item>Alemania</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Antigua y Barbuda</item>
+        <item>Arabia Saudita</item>
+        <item>Argelia</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+    </string-array>
 
-    <string name="c1">Kabul</string>
-    <string name="c2">Tirana</string>
-    <string name="c3">Berlín</string>
-    <string name="c4">Andorra la Vieja</string>
-    <string name="c5">Luanda</string>
-    <string name="c6">Saint John</string>
-    <string name="c7">Riad</string>
-    <string name="c8">Argel</string>
-    <string name="c9">Buenos Aires</string>
-    <string name="c10">Ereván</string>
-    
+    <string-array name="listaCapitales">
+        <item>Kabul</item>
+        <item>Tirana</item>
+        <item>Berlín</item>
+        <item>Andorra la Vieja</item>
+        <item>Luanda</item>
+        <item>Saint John</item>
+        <item>Riad</item>
+        <item>Argel</item>
+        <item>Buenos Aires</item>
+        <item>Ereván</item>
+    </string-array>
+
     <string name="btnVerificar">Verificar</string>
     <string name="lblPais">Pais no elegido</string>
     <string name="lblCapital">Capital no elegida</string>

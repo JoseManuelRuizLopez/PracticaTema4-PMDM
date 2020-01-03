@@ -46,21 +46,21 @@
         app:layout_constraintVertical_bias="0.971" />
 
     <fragment
-        android:id="@+id/fragPaises"
-        android:name="com.example.practicatema4.listaPaisesFragment"
-        android:layout_width="180dp"
-        android:layout_height="183dp"
+        android:id="@+id/fragment"
+        android:name="com.example.practicatema4.FragmentoPaises"
+        android:layout_width="189dp"
+        android:layout_height="205dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.124" />
+        app:layout_constraintVertical_bias="0.073" />
 
     <fragment
-        android:id="@+id/fragCapitales"
-        android:name="com.example.practicatema4.listaCapitalesFragment"
-        android:layout_width="180dp"
-        android:layout_height="183dp"
+        android:id="@+id/fragment2"
+        android:name="com.example.practicatema4.FragmentoCapitales"
+        android:layout_width="187dp"
+        android:layout_height="210dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
