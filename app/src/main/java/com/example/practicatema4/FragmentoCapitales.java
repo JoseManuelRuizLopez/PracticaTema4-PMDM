@@ -35,48 +35,7 @@ public class FragmentoCapitales extends Fragment {
         ListViewAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, arrayCapitales);
 
         listaCapitales.setAdapter(ListViewAdapter);
-        listaCapitales.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String capitalElegida = "";
-                switch (position) {
-                    case 0:
-                        capitalElegida = arrayCapitales[0];
-                        break;
-                    case 1:
-                        capitalElegida = arrayCapitales[1];
-                        break;
-                    case 2:
-                        capitalElegida = arrayCapitales[2];
-                        break;
-                    case 3:
-                        capitalElegida = arrayCapitales[3];
-                        break;
-                    case 4:
-                        capitalElegida = arrayCapitales[4];
-                        break;
-                    case 5:
-                        capitalElegida = arrayCapitales[5];
-                        break;
-                    case 6:
-                        capitalElegida = arrayCapitales[6];
-                        break;
-                    case 7:
-                        capitalElegida = arrayCapitales[7];
-                        break;
-                    case 8:
-                        capitalElegida = arrayCapitales[8];
-                        break;
-                    case 9:
-                        capitalElegida = arrayCapitales[9];
-                        break;
-                    case 10:
-                        capitalElegida = arrayCapitales[10];
-                        break;
 
-                }
-            }
-        });
         return view;
     }
 }
